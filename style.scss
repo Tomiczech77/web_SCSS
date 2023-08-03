@@ -17,6 +17,17 @@ header {
     }
 }
 
+
+.about-us {
+
+    h2, p {
+        color: $text-color;
+    }
+}
+
+
+
+
 footer {
     height: $footer-height;
     @include header-footer-style;
