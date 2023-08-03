@@ -2,3 +2,9 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+@mixin header-footer-style {
+    background: $header-footer-background;
+    color: $text-head-foot-color;
+    text-align: center;
+}

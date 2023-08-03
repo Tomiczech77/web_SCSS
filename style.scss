@@ -4,6 +4,24 @@
 
 body {
     background-color: $body-background;
-    @include container;
+    @include container;  
+}
+
+header {
+    height: $header-height;
+    @include header-footer-style;
+
+    h1 {
+        margin-top: 0;
+        line-height: $header-height;
+    }
+}
+
+footer {
+    height: $footer-height;
+    @include header-footer-style;
     
+    p {
+        line-height: $footer-height;
+    }
 }
