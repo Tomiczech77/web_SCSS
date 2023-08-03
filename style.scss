@@ -1,0 +1,9 @@
+@import "partials/variables";
+@import "partials/mixins";
+
+
+body {
+    background-color: $body-background;
+    @include container;
+    
+}
