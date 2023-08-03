@@ -8,3 +8,7 @@
     color: $text-head-foot-color;
     text-align: center;
 }
+
+@mixin theme-box {
+    width: 6 * col-width();
+}

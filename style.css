@@ -19,6 +19,11 @@ header h1 {
   color: black;
 }
 
+.theme {
+  width: 49.45%;
+  display: inline-block;
+}
+
 footer {
   height: 50px;
   background: rgb(75, 15, 60);

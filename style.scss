@@ -1,5 +1,6 @@
 @import "partials/variables";
 @import "partials/mixins";
+@import "partials/functions";
 
 
 body {
@@ -25,6 +26,11 @@ header {
     }
 }
 
+
+.theme {
+    @include theme-box;
+    display: inline-block;
+}
 
 
 
