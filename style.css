@@ -41,6 +41,9 @@ header h1 {
   border: 2px solid black;
   border-radius: 15px;
 }
+.theme a:hover {
+  background: #76185e;
+}
 
 footer {
   height: 50px;

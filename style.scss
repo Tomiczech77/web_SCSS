@@ -44,6 +44,10 @@ header {
         width: 100px;
         margin: 10px auto;
         @include button;
+
+        &:hover {
+            background: lighten($header-footer-background, 10%);
+        }
     }
 }
 
