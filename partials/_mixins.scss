@@ -12,3 +12,16 @@
 @mixin theme-box {
     width: 6 * col-width();
 }
+
+@mixin my-border-radius($radius: 15px) {
+    border-radius: $radius;
+}
+
+@mixin button {
+    text-decoration: none;
+    background: $header-footer-background;
+    color: white;
+    padding: 10px 15px;
+    border: $ordinary-border;
+    @include my-border-radius;
+}
